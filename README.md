@@ -1,16 +1,26 @@
-# flutter_application_1
+# Flutter Auth & Chatbot App
 
-A new Flutter project.
+A clean and well-structured Flutter application that demonstrates user authentication and a basic chatbot interface. Built with clean architecture principles and state management using Riverpod.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+### 🔐 Authentication
+- **Login Screen**
+  - Email & password fields
+  - Form validation
+  - Navigation to Signup screen
+- **Signup Screen**
+  - Name, email, password fields
+  - Form validation
+  - Navigation back to Login
+- **Persistent Login**
+  - SharedPreferences to store mock login state
 
-A few resources to get you started if this is your first Flutter project:
+### 💬 Chatbot Screen
+- Simple UI for user-bot interaction
+- Input field and scrollable message list
+- Dummy response from bot using static logic
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
